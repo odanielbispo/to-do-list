@@ -10,7 +10,8 @@ How to use?
 
 <pre>- Endpoint: https://desolate-atoll-01278.herokuapp.com/</pre>
 
-<pre>Post: https://desolate-atoll-01278.herokuapp.com/api/v1/tasks
+Post Example:
+<pre>https://desolate-atoll-01278.herokuapp.com/api/v1/tasks
 
 {
     "title":"Tarefa 1",
@@ -18,17 +19,18 @@ How to use?
     "deadline":"2021-10-20T09:45:55"
 }
 </pre>
-
+Get Examples:
 <pre>Get all: https://desolate-atoll-01278.herokuapp.com/api/v1/tasks</pre>
 
 <pre>Get By ID: https://desolate-atoll-01278.herokuapp.com/api/v1/tasks/{task_id}</pre>
 
+Put Example:
 <pre>Put: https://desolate-atoll-01278.herokuapp.com/api/v1/tasks/{task_id}<br>
 {
     "title":"Tarefa 1" (updatable),
     "description":"Primeira tarefa" (updatable),
     "deadline":"2021-10-20T09:45:55 (updatable)"
 }</pre>
-
+Delete Example:
 <pre>Delete: https://desolate-atoll-01278.herokuapp.com/api/v1/tasks/{task_id}</pre>
 
