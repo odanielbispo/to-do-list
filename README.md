@@ -5,28 +5,30 @@ Heroku Application: https://desolate-atoll-01278.herokuapp.com/
 <br>
 API Documentation: https://desolate-atoll-01278.herokuapp.com/swagger-ui.html
 
-How to use 
-<br>
-- Endpoint: https://desolate-atoll-01278.herokuapp.com/
+How to use?
+<hr/>
 
-Post: https://desolate-atoll-01278.herokuapp.com/api/v1/tasks
+<pre>- Endpoint: https://desolate-atoll-01278.herokuapp.com/</pre>
 
-{<br>
-    "title":"Tarefa 1",<br>
-    "description":"Primeira tarefa",<br>
-    "deadline":"2021-10-20T09:45:55"<br>
+<pre>Post: https://desolate-atoll-01278.herokuapp.com/api/v1/tasks
+
+{
+    "title":"Tarefa 1",
+    "description":"Primeira tarefa",
+    "deadline":"2021-10-20T09:45:55"
 }
+</pre>
 
-Get all: https://desolate-atoll-01278.herokuapp.com/api/v1/tasks<br><br>
+<pre>Get all: https://desolate-atoll-01278.herokuapp.com/api/v1/tasks</pre>
 
-Get By ID: https://desolate-atoll-01278.herokuapp.com/api/v1/tasks/{task_id}<br><br>
+<pre>Get By ID: https://desolate-atoll-01278.herokuapp.com/api/v1/tasks/{task_id}</pre>
 
-Put: https://desolate-atoll-01278.herokuapp.com/api/v1/tasks/{task_id}<br>
-{<br>
-    "title":"Tarefa 1" (updatable),<br>
-    "description":"Primeira tarefa" (updatable),<br>
-    "deadline":"2021-10-20T09:45:55 (updatable)"<br>
-}<br><br>
+<pre>Put: https://desolate-atoll-01278.herokuapp.com/api/v1/tasks/{task_id}<br>
+{
+    "title":"Tarefa 1" (updatable),
+    "description":"Primeira tarefa" (updatable),
+    "deadline":"2021-10-20T09:45:55 (updatable)"
+}</pre>
 
-Delete: https://desolate-atoll-01278.herokuapp.com/api/v1/tasks/{task_id}
+<pre>Delete: https://desolate-atoll-01278.herokuapp.com/api/v1/tasks/{task_id}</pre>
 
